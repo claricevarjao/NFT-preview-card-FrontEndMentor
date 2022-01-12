@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  background: hsl(217, 54%, 11%);
+}
+
+.container {
+  background: hsl(216, 50%, 16%);
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.imagem {
+  padding: 16px;
+  margin: 0 auto;
+  border-radius: 10%;
+  width: 270px;
+}
+
+.titulo {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  padding-left: 12px;
+  position: relative;
+  top: -20px;
+}
+
+.titulo:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.texto {
+  padding-left: 12px;
+  font-size: 16px;
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  top: -25px;
+}
+
+.valor-dias {
+  font-size: 10px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-bottom: 14px;
+  padding-right: 12px;
+  position: relative;
+  top: -30px;
+}
+
+.valor {
+  font-size: 14px;
+  font-weight: bold;
+  color: hsl(178, 100%, 50%);
+}
+
+.valor img,
+.dias img {
+  display: inline;
+  margin-right: 5px;
+}
+
+.dias {
+  font-size: 14px;
+  color: hsl(215, 51%, 70%);
+  margin-right: 5px;
+}
+
+.creation {
+  font-size: 16px;
+  padding-left: 12px;
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  top: -25px;
+}
+
+.creation a {
+  color: #fff;
+  font-weight: normal;
+}
+
+.creation a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.creation img {
+  width: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.creation::before {
+  content: "";
+  display: block;
+  width: 265px;
+  height: 1px;
+  background: hsl(215, 51%, 70%);
+  margin: 0 auto;
+  position: relative;
+  top: -5px;
+}
